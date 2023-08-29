@@ -1,0 +1,81 @@
+@font-face {
+    font-family: aeonikRegular;
+    src: url(Aeonik-Regular.otf);
+}
+
+.body {
+    /* background: #000000; */
+    /* background: #ffffff; */
+    /* background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000); */
+    /* font-family: "Inter", sans-serif; */
+    font-family: aeonikRegular !important;
+}
+
+/* .body {
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+} */
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.cdisplay-a1 {
+    font-size: calc(1.675rem + 5.1vw);
+    font-weight: 600;
+    line-height: 1.2;
+    background: linear-gradient(to left, #fdeff9, #ec38bc, #ad36ff, #4939d7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 1200px) {
+    .cdisplay-a1 {
+        font-size: 6rem;
+    }
+}
+
+.cbg-img-center {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* @media (max-width: 576px) {
+    .min-vh-100 {
+        min-height: 20vh !important;
+    }
+} */
+
+/* .table_table__fuS_N td a, .table_table__fuS_N td button{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+} */
+
+.iframe-container {
+    overflow: hidden
+}
+
+.crop-iframe {
+    position: relative;
+    /* right: -40px; */
+    top: -45px
+}
+
+.crop-iframe-single {
+    position: relative;
+    right: -40px;
+    top: -50px
+}
